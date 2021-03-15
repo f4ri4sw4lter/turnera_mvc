@@ -7,12 +7,12 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="inicio">Inicio
+            <a class="nav-link" href="<?=URL?>inicio">Inicio
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="turno">Turno</a>
+            <a class="nav-link" href="<?=URL?>turno">Turno</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Services</a>

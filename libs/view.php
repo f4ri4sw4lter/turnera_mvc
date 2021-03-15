@@ -1,10 +1,10 @@
 <?php
 class View{
 
-    function __construct(){
+    public function __construct(){
     }
 
-    function render($nombre){
+    public function render($nombre){
         require 'views/'.$nombre.'.php';
     }
 }
