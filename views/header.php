@@ -8,10 +8,10 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Bare - Start Bootstrap Template</title>
+  <title><?=$title?></title>
 
   <!-- Bootstrap core CSS -->
-  <link href="public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?=URL?>public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 

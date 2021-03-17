@@ -1,10 +1,12 @@
-<?php include 'views/header.php'; ?>
-
-  <!-- Navigation -->
-  <?php include 'views/menu.php';?>
+<?php 
+$title = 'inicio';
+//Header
+include 'views/header.php';
+//Navigation
+include 'views/menu.php';
+?>
 
   <!-- Page Content -->
-  <h1>INICIO</h1>
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
